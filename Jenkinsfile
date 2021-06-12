@@ -6,7 +6,7 @@ pipeline {
  stages {
   stage('Checkout') {
    steps {
-     git credentialsId: 'rajasekhararb', url: 'https://github.com/rajasekhararb/SampleTest1.git', branch: 'master'
+     git credentialsId: 'rajasekhararb', url: 'https://github.com/rajasekhararb/msbuild.git', branch: 'master'
    }
   }
   
